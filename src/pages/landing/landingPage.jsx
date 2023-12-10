@@ -29,7 +29,18 @@ export function LandingPage() {
 
             <div className="go-down" onClick={scareKikky}><span>↓</span></div>
         </header>
-        
+        <article id='article_1'>
+            <div className="article__title">Нашата цел</div>
+            <div className="content">
+                <div className="content__text">
+                    <span>MyTherapy</span> е уникална платформа, която дава възможност всеки да бъде
+                    изслушан по всяко време 
+                </div>
+            </div>
+        </article>
+        <article id="article_2">
+
+        </article>
         </div>
     ) : (
         <div className="in-dev">Desktop under construction...</div>

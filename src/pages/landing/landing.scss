@@ -79,63 +79,55 @@ article {
 
 .article__title {
     text-align: center;
-    font-size: 2.25rem;
+    font-size: 2.10rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: -1.4px;
 
-    transform: translate(0, 50vh); 
+    transform: translate(0, 39vh); 
     z-index: 1000;
 }
 
-.block {
-    height: 65%;
-    width: 100%;
-    position: absolute;
-
-    border: transparent 1px solid;
-    border-radius: 0 0 1rem 1rem;
-
-    background-color: #C4FAF8;
-}
-
-.kikkyCircles {
-    width: 80vw;
-    height: 80vw;
-
-    background-image: url(../../images/kikkyCircles.svg);
-    background-size: 90vw 90vw;
-
-    position: absolute;
-    margin-left: .5vw;
-    margin-top: 4vh;
-}
 
 .content {
     width: 75vw;
-    height: 52.5vw;
+    height: 45vw;
 
     border: transparent 1px solid;
     border-radius: 10px;
     background-color: #FFD4E5;
 
-    transform: translate(0, 54vh); 
+    transform: translate(0, 41vh); 
     z-index: 1000;
     
     display: flex;
-    align-items: center;
-
+    justify-content: center;
     
 
     &__text {
+        height: 90%;
+        width: 90%;
         text-align: center;
-        font-size: 1.25rem;
+        font-size: 1.20rem;
         font-style: normal;
         font-weight: 400;
-        line-height: 20px; /* 125% */
-        letter-spacing: -0.8px;
-        
-        margin-bottom: 1.75vh;
+        line-height: 1.25rem; /* 125% */
+        letter-spacing: -0.05rem;
+        margin-top: 5vh;
     }
+}
+
+#article_1 {
+    background-image: url(../../images/landing-ornament3.svg);
+    background-size: 100vw 100vh;
+
+    z-index: 1000;
+}
+
+#article_2 {
+    background-image: url(../../images/article2.svg);
+    background-size: 100vw 100vh;
+
+    z-index: 1000;
 }
